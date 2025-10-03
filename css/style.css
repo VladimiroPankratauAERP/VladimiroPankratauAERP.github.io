@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    /* Remove margens padrão */
+    padding: 0;
+    /* Remove espaçamentos padrão */
+    box-sizing: border-box;
+    /* Inclui bordas e padding na largura e altura totais dos elementos */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Define a fonte padrão */
+}
+
+body {
+    background-color: rgb(247, 245, 243);
+}
+
+header {
+    background-color: #2C3E50;
+    /* Cor de fundo do cabeçalho */
+    color: #ffffff;
+    /* Cor do texto */
+    text-align: center;
+    /* Texto ao centro */
+    padding-bottom: 20px;
+    padding-top: 20px;
+    ;
+}
+
+header nav ul li {
+    display: inline;
+    /* Coloca os itens da lista na horizontal */
+    list-style-type: none;
+    /* Remove os marcadores da lista */
+    padding: 20px;
+    /* Espaçamento entre os itens */
+    line-height: 2.3;
+    /* Altura da linha */
+}
+
+header a {
+    color: #ffffff;
+    /* Cor do texto */
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+}
+
+header a:visited {
+    color: #ffffff;
+    /* Cor do texto */
+}
+
+header a:hover {
+    text-decoration: underline;
+    /* Sublinha o texto ao passar o mouse */
+    color: #18BC9C;
+    /* Cor do texto ao passar o mouse */
+}
+
+main {
+    margin-left: 15%;
+    /* Margem esquerda */
+    margin-right: 15%;
+    /* Margem direita */
+}
+
+table,
+th,
+td {
+    border-collapse: collapse;
+    /* Remove espaços entre as bordas */
+    border: 3px solid #2C3E50;
+    /* Cor da borda */
+    padding: 10px;
+    /* Espaçamento interno */
+    text-align: center;
+    /* Alinha o texto ao centro */
+}
+
+th {
+    background-color: #26598d;
+    /* Cor de fundo do cabeçalho da tabela */
+    color: #ffffff;
+    /* Cor do texto do cabeçalho */
+}
+
+td {
+    background-color: #367fc7;
+    /* Cor de fundo do cabeçalho da tabela */
+    color: #ffffff;
+    /* Cor do texto do cabeçalho */
+}
+
+main h2 {
+    font-size: 32px;
+    color: #18BC9C;
+    /* Cor do texto */
+    border-bottom: solid 3px #18BC9C;
+    /* Linha inferior */
+    padding-top: 35px;
+    /* Espaçamento superior */
+}
+
+.div-sobre {
+    display: flex;
+    /* Usa Flexbox para layout */
+    flex-direction: column;
+    /* Alinha os itens em coluna */
+    align-items: center;
+    /* Centraliza os itens horizontalmente */
+    justify-content: center;
+    /* Centraliza os itens verticalmente */
+    padding-top: 30px;
+    /* Espaçamento superior */
+}
+
+.img-user {
+    width: 200px;
+    /* Define o tamanho da imagem */
+    height: 200px;
+    /* Define o tamanho da imagem */
+    border-radius: 50%;
+    /* Torna a imagem circular */
+    margin-bottom: 20px;
+    /* Espaçamento inferior */
+    border: 5px solid #18BC9C;
+    /* Borda ao redor da imagem */
+    object-fit: cover;
+    object-position: top center;
+}
+
+.div-educacao table {
+    margin-top: 20px;
+    /* Espaçamento superior */
+    width: 100%;
+    /* Largura total da tabela */
+}
+
+.div-experiencia h3 {
+    margin-top: 20px;
+    color: #26598d;
+    /* Cor do texto */
+    line-height: 2.3;
+    /* Altura da linha */
+}
+
+.div-competencias ul,
+.div-glossario dl,
+.div-contacto address {
+    margin-top: 20px;
+}
+
+.div-competencias li {
+    list-style-type: none;
+    line-height: 2.3;
+    /* Altura da linha */
+}
+
+.li-negrito {
+    color: #26598d;
+    /* Cor do texto */
+    font-weight: bold;
+}
+
+.div-glossario dt {
+    color: #26598d;
+    font-weight: bold;
+    line-height: 2.3;
+    /* Altura da linha */
+}
+
+.div-experiencia,
+.div-competencias,
+.div-glossario,
+.div-contacto {
+    margin-top: 20px;
+    /* Espaçamento superior */
+}
+
+.div-contacto a {
+    color: #26598d;
+    font-weight: bold;
+    text-decoration: none;
+    /* Remove o sublinhado dos links */
+}
+
+.div-contacto {
+    padding-bottom: 40px;
+}
+
+.footer {
+    background-color: #2C3E50;
+    /* Cor de fundo do rodapé */
+    color: #ffffff;
+    /* Cor do texto */
+    text-align: center;
+    /* Texto ao centro */
+    padding: 10px;
+    /* Espaçamento interno */
+}
+
+.footer img {
+    padding-top: 10px;
+}
